@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="dist/css/style.css" />
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<!-- Bootstrap Icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+		/>
+		<title>Home Page</title>
+	</head>
+	<body id="home" class="">
+		<!-- Navbar -->
+		<nav
+			class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Maulana Portfolio</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarNav"
+					style="width: 100%"
+				>
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#achievements">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#gallery">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a
+								style="cursor: pointer"
+								class="nav-link"
+								data-bs-toggle="modal"
+								data-bs-target="#staticBackdrop"
+								>Theme</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navbar -->
+
+		<!-- Landing Page -->
+		<div class="landing-page text-center mt-5">
+			<img
+				class="rounded-circle img-thumbnail mt-2"
+				src="dist/img/large.png"
+				alt="Maulana Saepul Akbar"
+				width="150"
+				data-aos="fade-down"
+				data-aos-duration="1000"
+			/>
+			<h3 class="display-5 mt-2 text-light">Maulana Saepul Akbar</h3>
+			<p class="lead text-light">
+				"Every saint has a past, and every sinner has a future"
+			</p>
+
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#ffffff"
+					fill-opacity="1"
+					d="M0,160L40,149.3C80,139,160,117,240,144C320,171,400,245,480,240C560,235,640,149,720,101.3C800,53,880,43,960,64C1040,85,1120,139,1200,149.3C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+				></path>
+			</svg>
+		</div>
+		<div class="round-tringle-square-animation">
+			<div class="triangle_set1" id="jq_respon">
+				<div class="triangle1">
+					<div class="empty1"></div>
+				</div>
+			</div>
+
+			<div class="bg_circle1" id="circle_animation1"></div>
+			<div class="bg_circle2"></div>
+			<div class="bg_circle3"></div>
+
+			<div class="square2"></div>
+			<div class="bg_circle4"></div>
+			<div class="square"></div>
+			<div class="cross"></div>
+
+			<div class="cross2"></div>
+		</div>
+		<!-- End Landing Page-->
+
+		<!-- Achievements -->
+		<section id="achievements">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="creative-demo-content mt50 mt-4">
+							<div class="couting">
+								<h2 class="text-primary">Achievements</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Card -->
+		<div class="container container-modify" style="padding-top: 2rem">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="image-effect text-center">
+						<img
+							class="img-fluid creative-img"
+							src="dist/img/integrasi.jpg"
+							alt=""
+						/>
+						<div class="cretive_img_content">
+							<h4>Payment Gateway</h4>
+							<p>Pernah meng-integrasikan Payment Gateway</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="image-effect">
+						<img
+							class="img-fluid creative-img"
+							src="dist/img/mikrotik.jpg"
+							alt=""
+						/>
+						<div class="cretive_img_content">
+							<h4>Mikrotik</h4>
+							<p>Belajar dan memahami materi konfigurasi Mikrotik</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="image-effect text-center">
+						<img
+							class="img-fluid creative-img"
+							src="dist/img/program.jpg"
+							alt=""
+						/>
+						<div class="cretive_img_content">
+							<h4>Bahasa Pemograman</h4>
+							<p>
+								Memahami Beberapa bahasa pemograman seperti PHP Framework
+								(Codeigniter), C++, python
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="image-effect text-center">
+						<a href="download.php?file=module.pdf">
+
+							<img
+							class="img-fluid creative-img"
+							src="dist/img/img7.jpg"
+							alt=""
+							/>
+						</a>
+						<div class="cretive_img_content">
+							<h4>Module Mikrotik</h4>
+							<p>
+								Download Module Mikrotik Buatan sendiri
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path
+				fill="#d6dce2"
+				fill-opacity="1"
+				d="M0,224L34.3,213.3C68.6,203,137,181,206,165.3C274.3,149,343,139,411,154.7C480,171,549,213,617,224C685.7,235,754,213,823,186.7C891.4,160,960,128,1029,138.7C1097.1,149,1166,203,1234,192C1302.9,181,1371,107,1406,69.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+			></path>
+		</svg>
+		<!-- End Card -->
+		<!-- End Achievements -->
+
+		<!-- Gallery -->
+		<section id="gallery" style="min-height: 100px">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="creative-demo-content mt50 mt-4">
+							<div class="couting">
+								<h2 class="text-primary mt-1" id="galleryjs1">Gallery</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-left: 50px; margin-right: 50px">
+					<div class="col-md-3 mb-5">
+						<div class="image-effect text-center">
+							<div class="card h-100">
+								<img
+									src="dist/img/img1.jpg"
+									class="card-img-top"
+									alt="Programmer"
+									height="250"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">
+										This is a longer card with supporting text below as a
+										natural lead-in to additional content. This content is a
+										little bit longer.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-5">
+						<div class="image-effect">
+							<div class="card h-100">
+								<img
+									src="dist/img/img6.jpg"
+									class="card-img-top"
+									alt="Programmer"
+									height="250"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">
+										This is a longer card with supporting text below as a
+										natural lead-in to additional content. This content is a
+										little bit longer.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-5">
+						<div class="image-effect">
+							<div class="card h-100">
+								<img
+									src="dist/img/img5.jpg"
+									class="card-img-top"
+									alt="Programmer"
+									height="250"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">
+										This is a longer card with supporting text below as a
+										natural lead-in to additional content. This content is a
+										little bit longer.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-5">
+						<div class="image-effect">
+							<div class="card h-100">
+								<img
+									src="dist/img/img4.jpg"
+									class="card-img-top"
+									alt="Programmer"
+									height="250"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Card title</h5>
+									<p class="card-text">
+										This is a longer card with supporting text below as a
+										natural lead-in to additional content. This content is a
+										little bit longer.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#0d6efd"
+					fill-opacity="1"
+					d="M0,128L34.3,149.3C68.6,171,137,213,206,202.7C274.3,192,343,128,411,128C480,128,549,192,617,186.7C685.7,181,754,107,823,117.3C891.4,128,960,224,1029,224C1097.1,224,1166,128,1234,85.3C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+				></path>
+			</svg>
+		</section>
+		<!-- End Gallery -->
+
+		<!-- footer -->
+		<footer class="bg-primary text-white text-center pb-3">
+			<p>
+				Created with <i class="bi bi-heart-fill text-danger"></i> by
+				<a
+					class="text-white fw-bold"
+					href="https://instagram.com/maulana_saefulakbar06"
+					style="text-decoration: none"
+					>Maulana Saepul Akbar</a
+				>
+			</p>
+		</footer>
+		<!-- End footer -->
+		<!-- Modal -->
+		<!-- <div
+			class="modal fade"
+			id="staticBackdrop"
+			data-bs-backdrop="static"
+			data-bs-keyboard="false"
+			tabindex="-1"
+			aria-labelledby="staticBackdropLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="staticBackdropLabel">Theme</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="modal-body d-flex justify-content-center">
+						<div class="form-check form-check-inline">
+							<input
+								class="form-check-input"
+								type="radio"
+								name="inlineRadioOptions"
+								id="inlineRadio1"
+								value="option1"
+								checked
+							/>
+							<label class="form-check-label" for="inlineRadio1">Light </label>
+						</div>
+
+						<div class="form-check form-check-inline">
+							<input
+								class="form-check-input"
+								type="radio"
+								name="inlineRadioOptions"
+								id="inlineRadio2"
+								value="option2"
+							/>
+							<label class="form-check-label" for="inlineRadio2">Dark </label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			function myFunction(x) {
+				if (x.matches) {
+					// If media query matches
+
+					$("#jq_respon").css({ left: "10%", top: "15%" });
+					$(".bg_circle1").removeClass();
+					$("#galleryjs1").addClass("mt-4");
+					$(".cross").css({ top: "40%", left: "50px" });
+				} else {
+					$("#jq_respon").css({ left: "20%", top: "20%" });
+					$("#circle_animation1").addClass("bg_circle1");
+					$("#galleryjs1").addClass("mt-1");
+					$(".cross").css({ top: "70%", left: "80px" });
+				}
+			}
+
+			var x = window.matchMedia("(max-width: 700px)");
+			myFunction(x); // Call listener function at run time
+			x.addListener(myFunction); // Attach listener function on state changes
+
+			AOS.init();
+		</script>
+	</body>
+</html>
